@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/RabbitMQ/rabbitmq-java-client-bin-3.1.5/commons-cli-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/RabbitMQ/rabbitmq-java-client-bin-3.1.5/commons-io-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/RabbitMQ/rabbitmq-java-client-bin-3.1.5/rabbitmq-client.jar"/>
+	<classpathentry kind="lib" path="C:/Sybase/ESP-5_1/adapters/framework/libj/esp_adapter_framework.jar"/>
+	<classpathentry kind="lib" path="C:/Sybase/ESP-5_1/adapters/framework/libj/esp_sdk.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

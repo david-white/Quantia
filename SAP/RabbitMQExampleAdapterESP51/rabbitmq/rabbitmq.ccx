@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Platform version="5.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" compiled="true">
+
+    <Program>
+        <Section id="$~MyInStream">
+            <Types>
+                <RecordType name="MyInStream_rec">
+                    <Column datatype="date" key="false" name="dataTime" />
+                    <Column datatype="string" key="false" name="detectorName" />
+                    <Column datatype="string" key="false" name="direction" />
+                    <Column datatype="integer" key="false" name="detectorID1" />
+                    <Column datatype="integer" key="false" name="detectorID2" />
+                    <Column datatype="integer" key="false" name="detectorStatus" />
+                    <Column datatype="integer" key="false" name="speed" />
+                    <Column datatype="integer" key="false" name="volume" />
+                    <Column datatype="integer" key="false" name="occupancy" />
+                    <Column datatype="integer" key="false" name="longVehicleVol" />
+                </RecordType>
+            </Types>
+        </Section>
+        <Section id="$~testWindow">
+            <Types>
+                <RecordType name="testWindow_rec">
+                    <Column datatype="date" key="false" name="dataTime" />
+                    <Column datatype="string" key="false" name="detectorName" />
+                    <Column datatype="string" key="false" name="direction" />
+                    <Column datatype="integer" key="true" name="detectorID1" />
+                    <Column datatype="integer" key="true" name="detectorID2" />
+                    <Column datatype="integer" key="false" name="detectorStatus" />
+                    <Column datatype="integer" key="false" name="speed" />
+                    <Column datatype="integer" key="false" name="volume" />
+                    <Column datatype="integer" key="false" name="occupancy" />
+                    <Column datatype="integer" key="false" name="longVehicleVol" />
+                </RecordType>
+                <RecordType name="MyInStream_rec">
+                    <Column datatype="date" key="false" name="dataTime" />
+                    <Column datatype="string" key="false" name="detectorName" />
+                    <Column datatype="string" key="false" name="direction" />
+                    <Column datatype="integer" key="false" name="detectorID1" />
+                    <Column datatype="integer" key="false" name="detectorID2" />
+                    <Column datatype="integer" key="false" name="detectorStatus" />
+                    <Column datatype="integer" key="false" name="speed" />
+                    <Column datatype="integer" key="false" name="volume" />
+                    <Column datatype="integer" key="false" name="occupancy" />
+                    <Column datatype="integer" key="false" name="longVehicleVol" />
+                </RecordType>
+                <IteratorType name="IterMyInStream_rec" valtype="MyInStream_rec" />
+                <IteratorType name="ItertestWindow_rec" valtype="testWindow_rec" />
+                <RecordType name="$!_type_0">
+                    <Column datatype="integer" key="true" name="detectorID1"/>
+                    <Column datatype="integer" key="true" name="detectorID2"/>
+                    <Column datatype="date" key="false" name="dataTime"/>
+                    <Column datatype="string" key="false" name="detectorName"/>
+                    <Column datatype="string" key="false" name="direction"/>
+                    <Column datatype="integer" key="false" name="detectorStatus"/>
+                    <Column datatype="integer" key="false" name="speed"/>
+                    <Column datatype="integer" key="false" name="volume"/>
+                    <Column datatype="integer" key="false" name="occupancy"/>
+                    <Column datatype="integer" key="false" name="longVehicleVol"/>
+                </RecordType>
+                <RecordType name="$!_type_1">
+                    <Column datatype="date" key="false" name="dataTime"/>
+                    <Column datatype="string" key="false" name="detectorName"/>
+                    <Column datatype="string" key="false" name="direction"/>
+                    <Column datatype="integer" key="false" name="detectorID1"/>
+                    <Column datatype="integer" key="false" name="detectorID2"/>
+                    <Column datatype="integer" key="false" name="detectorStatus"/>
+                    <Column datatype="integer" key="false" name="speed"/>
+                    <Column datatype="integer" key="false" name="volume"/>
+                    <Column datatype="integer" key="false" name="occupancy"/>
+                    <Column datatype="integer" key="false" name="longVehicleVol"/>
+                </RecordType>
+                <RecordType name="$!_type_2">
+                    <Column datatype="integer" key="true" name="detectorID1"/>
+                    <Column datatype="integer" key="true" name="detectorID2"/>
+                    <Column datatype="date" key="false" name="dataTime"/>
+                    <Column datatype="string" key="false" name="detectorName"/>
+                    <Column datatype="string" key="false" name="direction"/>
+                    <Column datatype="integer" key="false" name="detectorStatus"/>
+                    <Column datatype="integer" key="false" name="speed"/>
+                    <Column datatype="integer" key="false" name="volume"/>
+                    <Column datatype="integer" key="false" name="occupancy"/>
+                    <Column datatype="integer" key="false" name="longVehicleVol"/>
+                </RecordType>
+                <RecordType name="$!_type_3">
+                    <Column datatype="integer" key="true" name="detectorID1"/>
+                    <Column datatype="integer" key="true" name="detectorID2"/>
+                    <Column datatype="date" key="false" name="dataTime"/>
+                    <Column datatype="string" key="false" name="detectorName"/>
+                    <Column datatype="string" key="false" name="direction"/>
+                    <Column datatype="integer" key="false" name="detectorStatus"/>
+                    <Column datatype="integer" key="false" name="speed"/>
+                    <Column datatype="integer" key="false" name="volume"/>
+                    <Column datatype="integer" key="false" name="occupancy"/>
+                    <Column datatype="integer" key="false" name="longVehicleVol"/>
+                </RecordType>
+                <RecordType name="$!_type_4">
+                    <Column datatype="date" key="false" name="dataTime"/>
+                    <Column datatype="string" key="false" name="detectorName"/>
+                    <Column datatype="string" key="false" name="direction"/>
+                    <Column datatype="integer" key="false" name="detectorID1"/>
+                    <Column datatype="integer" key="false" name="detectorID2"/>
+                    <Column datatype="integer" key="false" name="detectorStatus"/>
+                    <Column datatype="integer" key="false" name="speed"/>
+                    <Column datatype="integer" key="false" name="volume"/>
+                    <Column datatype="integer" key="false" name="occupancy"/>
+                    <Column datatype="integer" key="false" name="longVehicleVol"/>
+                </RecordType>
+            </Types>
+            <Registers>
+                <ConstRegister name="$!_const_0" type="integer"/>
+                <ConstRegister name="$!_const_1" type="integer" value="0"/>
+                <ConstRegister name="$!_const_2" type="integer" value="7"/>
+                <ConstRegister name="$!_const_3" type="integer" value="0"/>
+                <ConstRegister name="$!_const_4" type="integer" value="0"/>
+            </Registers>
+            <LegacyRegisters>
+                <LegacyRegister name="MyInStream_stream" type="#ProcNode#" value="MyInStream" />
+                <LegacyRegister name="MyInStream" type="MyInStream_rec" />
+                <LegacyRegister name="MyInStream_iter" type="IterMyInStream_rec" />
+                <LegacyRegister name="MyInStream_old" type="MyInStream_rec" />
+                <LegacyRegister name="testWindow_stream" type="#ProcNode#" value="testWindow" />
+                <LegacyRegister name="testWindow" type="testWindow_rec" />
+                <LegacyRegister name="testWindow_iter" type="ItertestWindow_rec" />
+                <LegacyRegister name="testWindow_old" type="testWindow_rec" />
+            </LegacyRegisters>
+            <Opcodes>
+                <FuncLabel name="$~testWindow_OnInput_MyInStream"/>
+                    <Opcode op="GETCONSTANT" arg1="$!_const_1"/>
+                    <Opcode op="GETREGISTER" arg1="MyInStream"/>
+                    <Opcode op="GETFIELD" type="integer" arg1="5"/>
+                    <Opcode op="APPLY" arg1="INT32_NEQ" arg2="2"/>
+                    <Opcode op="JZN" arg1="1" jmp="$#_label_1"/>
+                    <Opcode op="EXIT" />
+                <Label name="$#_label_1"/>
+                    <Opcode op="GETCONSTANT" arg1="$!_const_2"/>
+                    <Opcode op="GETREGISTER" arg1="MyInStream"/>
+                    <Opcode op="APPLY" arg1="RECORD_SETOPCODE" arg2="2"/>
+                    <Opcode op="CASTRECORD" arg1="$!_type_3" arg2="$!_type_4"/>
+                    <Opcode op="COPYOUTPUT" />
+                    <Opcode op="GETCONSTANT" arg1="$!_const_3"/>
+                    <Opcode op="RETURN" />
+                    <Opcode op="GETCONSTANT" arg1="$!_const_0"/>
+                    <Opcode op="RETURN" />
+                <FuncLabel name="$~init_function" init="true"/>
+                    <Opcode op="GETCONSTANT" arg1="$!_const_4"/>
+                    <Opcode op="RETURN" />
+                    <Opcode op="GETCONSTANT" arg1="$!_const_0"/>
+                    <Opcode op="RETURN" />
+                    <Opcode op="END" />
+            </Opcodes>
+        </Section>
+    </Program>
+
+	<!-- ************************************************************************************* -->
+	<!-- store Store Definition -->
+
+	<Store id="store" kind="memory" index="tree" indexSizeHint="8" />
+
+
+    <CompiledSourceStream id="MyInStream" section="$~MyInStream" visibility="input" >
+        <Column datatype="date" key="false" name="dataTime" />
+        <Column datatype="string" key="false" name="detectorName" />
+        <Column datatype="string" key="false" name="direction" />
+        <Column datatype="integer" key="false" name="detectorID1" />
+        <Column datatype="integer" key="false" name="detectorID2" />
+        <Column datatype="integer" key="false" name="detectorStatus" />
+        <Column datatype="integer" key="false" name="speed" />
+        <Column datatype="integer" key="false" name="volume" />
+        <Column datatype="integer" key="false" name="occupancy" />
+        <Column datatype="integer" key="false" name="longVehicleVol" />
+
+        <StatelessInsert name="MyInStream" recordType="MyInStream_rec" result="true" />
+        <PassLogic name="l_MyInStream" priority="0" itype="classic" from="src_MyInStream" to="MyInStream" />
+        <SourceNode name="src_MyInStream" recordType="MyInStream_rec" />
+
+            <InConnection name="Example_Adapter_with_schema_rabbitmq1" location="Example_Adapter_with_schema_rabbitmq1_Location" >
+                <ConnectionParam name="basedir" value="C:/Sybase/ESP-5_1/adapters/framework/examples/rabbitmq" />
+            </InConnection>
+
+    </CompiledSourceStream>
+
+
+	<!-- ************************************************************************************* -->
+	<!-- defaultStore Store Definition -->
+
+	<Store id="defaultStore" kind="memory" />
+
+
+    <CompiledStream id="testWindow" istream="MyInStream" section="$~testWindow" store="defaultStore" visibility="output" >
+
+            <OutConnection name="Adapter1" location="Adapter1_Location" >
+                <ConnectionParam name="dir" value="./logs" />
+                <ConnectionParam name="file" value="rabbitmqExample.csv" />
+                <ConnectionParam name="delimiter" value="," />
+            </OutConnection>
+
+        <Column datatype="date" key="false" name="dataTime" />
+        <Column datatype="string" key="false" name="detectorName" />
+        <Column datatype="string" key="false" name="direction" />
+        <Column datatype="integer" key="true" name="detectorID1" />
+        <Column datatype="integer" key="true" name="detectorID2" />
+        <Column datatype="integer" key="false" name="detectorStatus" />
+        <Column datatype="integer" key="false" name="speed" />
+        <Column datatype="integer" key="false" name="volume" />
+        <Column datatype="integer" key="false" name="occupancy" />
+        <Column datatype="integer" key="false" name="longVehicleVol" />
+
+        <Window name="testWindow" recordType="testWindow_rec" result="true" collect="true" coalesce="true" />
+        <VmLogic name="l_testWindow_MyInStream" priority="0" itype="flex_classic" from="MyInStream" to="testWindow" label="$~testWindow_OnInput_MyInStream" register="MyInStream" registerOld="MyInStream_old" />
+
+    </CompiledStream>
+
+
+	<!-- ************************************************************************************* -->
+	<!-- Adapter1_Location Data Location Definition -->
+
+	<DataLocation id="Adapter1_Location" type="dsv_out" />
+
+
+	<!-- ************************************************************************************* -->
+	<!-- Example_Adapter_with_schema_rabbitmq1_Location Data Location Definition -->
+
+	<DataLocation id="Example_Adapter_with_schema_rabbitmq1_Location" type="ExampleAdapterForRabbitMQ" />
+
+
+</Platform>

@@ -1,0 +1,63 @@
+11-27-2013 18:38:25.389 INFO [main] (Framework.main) stop c:\Sybase\ESP-5_1\adapters\framework\examples\rabbitmq\adapter_config.xml 
+11-27-2013 18:38:25.655 INFO [main] (XmlUtils$1.resolveResource) C:\Sybase\ESP-5_1/adapters/framework/config/parametersdefine.xsd
+11-27-2013 18:38:25.663 INFO [main] (XmlUtils$1.resolveResource) C:\Sybase\ESP-5_1/adapters/framework/config/standard_module_parametersdefine.xsd
+11-27-2013 18:38:26.002 INFO [main] (PortAllocator.queryFromDataCenter) Trying to get global lock ... 
+11-27-2013 18:38:26.004 INFO [main] (PortAllocator.queryFromDataCenter) Success to get global lock.
+11-27-2013 18:38:26.006 INFO [main] (PortAllocator.queryFromDataCenter) Trying to contact the current running adapter...
+11-27-2013 18:38:26.006 WARN [main] (PortAllocator.queryFromDataCenter) The adapter is not running.
+11-27-2013 18:41:18.474 INFO [main] (Framework.main) stop c:\Sybase\ESP-5_1\adapters\framework\examples\rabbitmq\adapter_config.xml 
+11-27-2013 18:41:18.849 INFO [main] (XmlUtils$1.resolveResource) C:\Sybase\ESP-5_1/adapters/framework/config/parametersdefine.xsd
+11-27-2013 18:41:18.859 INFO [main] (XmlUtils$1.resolveResource) C:\Sybase\ESP-5_1/adapters/framework/config/standard_module_parametersdefine.xsd
+11-27-2013 18:41:19.253 INFO [main] (PortAllocator.queryFromDataCenter) Trying to get global lock ... 
+11-27-2013 18:41:19.255 INFO [main] (PortAllocator.queryFromDataCenter) Success to get global lock.
+11-27-2013 18:41:19.258 INFO [main] (PortAllocator.queryFromDataCenter) Trying to contact the current running adapter...
+11-27-2013 18:41:19.275 INFO [main] (AdapterController.init) Port 19082 is used to accept the control command.
+11-27-2013 18:41:19.316 INFO [main] (AdapterController.sendCommand) stop C:\Sybase\ESP-5_1\adapters\framework\examples\rabbitmq\adapter_config.xml
+11-27-2013 18:41:19.443 INFO [main] (AdapterController.executeStop) Stop message is successfully sent to adapter.
+11-27-2013 18:41:36.103 INFO [main] (Framework.main) stop c:\Sybase\ESP-5_1\adapters\framework\examples\rabbitmq\adapter_config.xml 
+11-27-2013 18:41:36.447 INFO [main] (XmlUtils$1.resolveResource) C:\Sybase\ESP-5_1/adapters/framework/config/parametersdefine.xsd
+11-27-2013 18:41:36.456 INFO [main] (XmlUtils$1.resolveResource) C:\Sybase\ESP-5_1/adapters/framework/config/standard_module_parametersdefine.xsd
+11-27-2013 18:41:36.849 INFO [main] (PortAllocator.queryFromDataCenter) Trying to get global lock ... 
+11-27-2013 18:41:36.852 INFO [main] (PortAllocator.queryFromDataCenter) Success to get global lock.
+11-27-2013 18:41:36.853 INFO [main] (PortAllocator.queryFromDataCenter) Trying to contact the current running adapter...
+11-27-2013 18:41:36.854 WARN [main] (PortAllocator.queryFromDataCenter) The adapter is not running.
+11-27-2013 18:42:02.133 INFO [main] (Framework.main) start c:\Sybase\ESP-5_1\adapters\framework\examples\rabbitmq\adapter_config.xml 
+11-27-2013 18:42:02.414 INFO [main] (XmlUtils$1.resolveResource) C:\Sybase\ESP-5_1/adapters/framework/config/parametersdefine.xsd
+11-27-2013 18:42:02.421 INFO [main] (XmlUtils$1.resolveResource) C:\Sybase\ESP-5_1/adapters/framework/config/standard_module_parametersdefine.xsd
+11-27-2013 18:42:02.745 INFO [main] (PortAllocator.allocateFromDataCenter) Trying to get global lock ... 
+11-27-2013 18:42:02.748 INFO [main] (PortAllocator.allocateFromDataCenter) Success to get global lock.
+11-27-2013 18:42:03.364 INFO [main] (AdapterController.init) Port 19082 is used to accept the control command.
+11-27-2013 18:42:03.433 INFO [main] (AdapterController.sendCommand) start C:\Sybase\ESP-5_1\adapters\framework\examples\rabbitmq\adapter_config.xml
+11-27-2013 18:42:04.573 INFO [Thread-0] (Server.doStart) jetty-7.6.1.v20120215
+11-27-2013 18:42:04.614 INFO [Thread-0] (ContextHandler.startContext) started o.e.j.s.ServletContextHandler{/,null}
+11-27-2013 18:42:04.659 INFO [Thread-0] (AbstractConnector.doStart) Started SelectChannelConnector@0.0.0.0:19082
+11-27-2013 18:42:05.571 INFO [main] (AdapterController.executeStart) Adapter controller is started.
+11-27-2013 18:42:05.572 INFO [main] (AdapterController.executeStart) Starting adapter
+11-27-2013 18:42:05.616 INFO [main] (EspProjectInfo.connect) Login to esp://localhost:19011/example_modules/rabbitmq
+11-27-2013 18:42:06.142 INFO [main] (ModuleWrapper.initQue) Buffer Size for module MyInStream_Publisher is 10240.
+11-27-2013 18:42:06.144 INFO [main] (ModuleWrapper.initParallelParameters) Parallel setting of module MyInStream_Publisher is true.
+11-27-2013 18:42:06.145 INFO [main] (EspPublisher.init) EspPublisher is initializing
+11-27-2013 18:42:06.154 INFO [main] (EspPublisher.init) Transaction buffer size is 256.
+11-27-2013 18:42:06.188 INFO [main] (ModuleWrapper.initQue) Buffer Size for module MyRabbitMQExampleInputTransporter is 10240.
+11-27-2013 18:42:06.190 INFO [main] (ModuleWrapper.initParallelParameters) Parallel setting of module MyRabbitMQExampleInputTransporter is true.
+11-27-2013 18:42:06.191 INFO [main] (TransporterWrapper.init) Before initializing the Transporter module MyRabbitMQExampleInputTransporter
+11-27-2013 18:42:06.191 INFO [main] (RabbitMQExampleInputTransporter.init) RabbitMQExampleInputTransporter is initializing
+11-27-2013 18:42:06.302 INFO [main] (RabbitMQExampleInputTransporter.init)  [REAL Thread] Waiting for messages...
+11-27-2013 18:42:06.307 INFO [main] (TransporterWrapper.init) After initializing the Transporter module MyRabbitMQExampleInputTransporter
+11-27-2013 18:42:06.307 INFO [main] (ModuleWrapper.initQue) Buffer Size for module MyRabbitMQExampleInputFormatter is 10240.
+11-27-2013 18:42:06.310 INFO [main] (ModuleWrapper.initParallelParameters) Parallel setting of module MyRabbitMQExampleInputFormatter is true.
+11-27-2013 18:42:06.311 INFO [main] (FormatterWrapper.init) Before initializing the Formatter module MyRabbitMQExampleInputFormatter
+11-27-2013 18:42:06.312 INFO [main] (RabbitMQExampleInputFormatter.init) RabbitMQExampleInputFormatter is initializing
+11-27-2013 18:42:06.315 INFO [main] (FormatterWrapper.init) After initializing the Formatter module MyRabbitMQExampleInputFormatter
+11-27-2013 18:42:06.328 INFO [main] (ModuleWrapper.start) Before starting module MyInStream_Publisher
+11-27-2013 18:42:06.343 INFO [main] (EspPublisher.start) Publisher of stream MyInStream is started
+11-27-2013 18:42:06.344 INFO [main] (ModuleWrapper.start) After module MyInStream_Publisher started
+11-27-2013 18:42:06.346 INFO [Thread-17] (EspConnectorWrapper.run) Running EspConnector Module MyInStream_Publisher
+11-27-2013 18:42:06.348 INFO [main] (ModuleWrapper.start) Before starting module MyRabbitMQExampleInputTransporter
+11-27-2013 18:42:06.348 INFO [Thread-18] (FormatterWrapper.run) Running Formatter module MyRabbitMQExampleInputFormatter
+11-27-2013 18:42:06.349 INFO [main] (RabbitMQExampleInputTransporter.start) RabbitMQExampleInputTransporter is starting
+11-27-2013 18:42:06.351 INFO [main] (ModuleWrapper.start) After module MyRabbitMQExampleInputTransporter started
+11-27-2013 18:42:06.355 INFO [main] (AdapterController.executeStart) Adapter started
+11-27-2013 18:42:06.355 INFO [main] (AdapterController.executeStart) Starting adapter controller
+11-27-2013 18:42:06.357 INFO [Thread-19] (TransporterWrapper.run) Before running the Transporter module MyRabbitMQExampleInputTransporter
+11-27-2013 18:42:06.358 INFO [Thread-19] (RabbitMQExampleInputTransporter.execute) RabbitMQExampleInputTransporter is running

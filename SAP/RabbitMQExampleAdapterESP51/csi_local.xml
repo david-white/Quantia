@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration xmlns="http://www.sybase.com/csi/3.1/config">
+	<authenticationProvider controlFlag="sufficient" name="com.sybase.security.core.PreConfiguredUserLoginModule">
+		<options name="username" value="sybase"/>
+		<options name="password" value="{SHA-256:x/cl8eOHZU0=}lGSx8d889GTP9eKVKIx9+S52W53j0CacFTsPQ3ZQ/lM="/>
+	</authenticationProvider>
+	<provider name="com.sybase.security.core.NoSecAttributer" type="attributer"/>
+	<provider name="com.sybase.security.core.NoSecAuthorizer" type="authorizer"/>
+</configuration>
+
+

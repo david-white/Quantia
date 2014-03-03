@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Adapter>
+  <Name>Example adapter for rabbitmq schema</Name>
+  <Description>This adapter is an example for adapter to rabbitmq schema.</Description>
+  <Log4jProperty>./log4j.properties</Log4jProperty>
+  <Modules>
+    <Module type="transporter">
+      <InstanceName>MyRabbitMQExampleInputTransporter</InstanceName>
+      <Name>RabbitMQExampleInputTransporter</Name>
+      <Next>MyRabbitMQExampleInputFormatter</Next>
+      <Parameters/>
+    </Module>
+
+    <Module type="formatter">
+      <InstanceName>MyRabbitMQExampleInputFormatter</InstanceName>
+      <Name>RabbitMQExampleInputFormatter</Name>
+      <Next>MyInStream_Publisher</Next>
+      <Parameters>
+      </Parameters>
+    </Module>
+
+    <Module type="espconnector">
+      <InstanceName>MyInStream_Publisher</InstanceName>
+      <Name>EspPublisher</Name>
+      <Parameters>
+        <EspPublisherParameters>
+          <!-- Comment out the next two lines to use the adapter in managed mode with any ESP project-->
+          <!-- Set ProjectName to your project's name and StreamName to your target stream in your project-->
+          <ProjectName>EspProject1</ProjectName>
+          <StreamName>MyInStream</StreamName>
+        </EspPublisherParameters>
+      </Parameters>
+    </Module>
+
+  </Modules>
+
+  <EspProjects>
+    <EspProject>
+      <Name>EspProject1</Name>
+      <Uri>esp://localhost:19011/example_modules/rabbitmq</Uri>
+      <Security>
+        <User>sybase</User>
+        <Password encrypted="false">sybase</Password>
+        <AuthType>user_password</AuthType>
+        <!--	
+    	  <RSAKeyStore>/keystore/keystore.jks</RSAKeyStore>
+	      <RSAKeyStorePassword></RSAKeyStorePassword>
+        -->
+        <!--
+	     <KerberosKDC>KDC</KerberosKDC>
+	     <KerberosRealm>REALM</KerberosRealm>
+ 	     <KerberosService>service/instance</KerberosService>
+	     <KerberosTicketCache>/tmp/krb5cc_user</KerberosTicketCache>
+        -->
+        <EncryptionAlgorithm>RSA</EncryptionAlgorithm>
+      </Security>
+    </EspProject>
+  </EspProjects>
+  <GlobalParameters></GlobalParameters>
+</Adapter>

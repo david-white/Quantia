@@ -1,0 +1,50 @@
+CREATE MEMORY STORE "store" PROPERTIES INDEXTYPE='tree', INDEXSIZEHINT=8;
+
+
+CREATE SCHEMA trafficSchema (
+	dataTime       Date,
+	detectorName   string,
+	direction      string,
+	detectorID1    integer,
+	detectorID2    integer,
+	detectorStatus integer,
+	speed          integer,
+	volume         integer,
+	occupancy      integer,
+	longVehicleVol integer
+);
+
+
+CREATE INPUT STREAM MyInStream SCHEMA trafficSchema;  
+
+
+CREATE FLEX testFlex
+  IN MyInStream
+  OUT OUTPUT WINDOW testWindow
+  SCHEMA trafficSchema
+  PRIMARY KEY ( detectorID1, detectorID2 )
+ BEGIN
+   ON MyInStream {
+   	if( MyInStream.detectorStatus != 0 ){
+   		exit;
+   	}
+   	output setopcode( MyInStream, upsert );
+   };
+ END;
+
+
+ATTACH OUTPUT ADAPTER Adapter1 TYPE dsv_out 
+	TO testWindow 
+	PROPERTIES 
+	  dir = './logs', 
+	  file = 'rabbitmqExample.csv',
+	  delimiter = ',' 
+	;
+	
+
+ATTACH INPUT ADAPTER Example_Adapter_with_schema_rabbitmq1 
+  TYPE ExampleAdapterForRabbitMQ 
+  TO MyInStream 
+  PROPERTIES 
+    baseDir ='C:/Sybase/ESP-5_1/adapters/framework/examples/rabbitmq'
+  ;

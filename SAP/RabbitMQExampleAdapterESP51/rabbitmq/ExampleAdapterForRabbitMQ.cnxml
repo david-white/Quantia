@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Adapter type="input" external="true"
+	 id="ExampleAdapterForRabbitMQ"
+	 label="Example RabbitMQ Adapter with schema discovery"
+	 descr="Example RabbitMQ adapter with schema discovery"
+	 >
+
+  <Library file="simple_ext" type="binary"/>
+
+  <Special>
+	<Internal id="x_allocateLocalSessionId" 
+      label="Request a new local session id"
+      descr="Request the project to allocate a new local session id. Then, the adapter could connect to the project using the new local session id depending on the adapter's choice"	  
+      type="boolean"
+      default="true"
+    />
+
+    <Internal id="x_winCmdExec"
+	      label="Start Command"
+	      type="string"
+	      default="&quot;$baseDir\\start_adapter.bat&quot;"
+	      />
+
+    <Internal id="x_unixCmdExec"
+	      label="Start Command"
+	      type="string"
+	      default="&quot;$baseDir/start_adapter.sh&quot;"/>
+		  
+    <Internal id="x_winCmdStop"
+	      label="Stop Command"
+	      type="string"
+	      default="&quot;$baseDir\\stop_adapter.bat&quot;"
+	      />
+
+    <Internal id="x_unixCmdStop"
+	      label="Stop Command"
+	      type="string"
+	      default="&quot;$baseDir/stop_adapter.sh&quot;"
+	      />
+		  
+    <Internal id="x_winCmdDisc"
+	      label="Discovery Command"
+	      type="string"
+	      default="&quot;$baseDir\\discover_adapter.bat&quot;"
+	      />
+
+    <Internal id="x_unixCmdDisc"
+	     label ="Discovery Command"
+	     type="string"
+	     default="&quot;$baseDir/discover_adapter.sh&quot;"
+	     />
+		  
+  </Special>
+
+  <!-- This is the section where the values appear in the studio adapter plug-in -->
+  <Section>
+    <Parameter id="baseDir"
+	       label="Adapter Directory Path"
+	       descr="Path to the Adapter base directory"
+	       type="directory"
+	       use="required"
+		   default=""
+	       />
+
+  </Section>
+
+
+</Adapter>
