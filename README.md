@@ -51,32 +51,30 @@ The DfwTrafficSend folder has the DfwTrafficSend Eclipse project.
 
 The rabbitmq folder is the ESP project.
 
-
-c:\Sybase\ESP-5_1\adapters\framework\examples\rabbitmq>dir /od
- Volume in drive C has no label.
- Volume Serial Number is 4A53-A693
-
- Directory of c:\Sybase\ESP-5_1\adapters\framework\examples\rabbitmq
-
-08/01/2013  04:25 PM               575 stop_project.bat
-08/01/2013  04:25 PM               168 discover_adapter.bat
-08/01/2013  04:25 PM               228 start_adapter.bat
-08/01/2013  04:25 PM               721 start_project.bat
-08/01/2013  04:25 PM               227 stop_adapter.bat
-11/17/2013  12:40 PM               471 .project
-11/18/2013  12:39 PM             1,111 set_example_env.bat
-11/21/2013  08:13 PM               126 start_node.bat
-11/21/2013  08:16 PM               394 subscribe.bat
-11/25/2013  10:03 AM    <DIR>          bin
-11/25/2013  08:29 PM             1,257 log4j.properties
-11/25/2013  08:30 PM             1,849 ExampleAdapterForRabbitMQ.cnxml
-11/25/2013  08:35 PM             1,873 adapter_config.xml
-11/25/2013  08:35 PM             1,089 rabbitmq.ccl
-11/27/2013  12:23 PM    <DIR>          ..
-11/27/2013  12:23 PM    <DIR>          .
-11/27/2013  12:38 PM    <DIR>          logs
-11/27/2013  12:41 PM            13,655 rabbitmq.ccx
-              14 File(s)         23,744 bytes
-               4 Dir(s)  308,768,956,416 bytes free
-
-c:\Sybase\ESP-5_1\adapters\framework\examples\rabbitmq>
+	c:\Sybase\ESP-5_1\adapters\framework\examples\rabbitmq>dir /od
+	 Volume in drive C has no label.
+	 Volume Serial Number is 4A53-A693
+	
+	Directory of c:\Sybase\ESP-5_1\adapters\framework\examples\rabbitmq
+	
+	08/01/2013  04:25 PM               575 stop_project.bat
+	08/01/2013  04:25 PM               168 discover_adapter.bat
+	08/01/2013  04:25 PM               228 start_adapter.bat
+	08/01/2013  04:25 PM               721 start_project.bat
+	08/01/2013  04:25 PM               227 stop_adapter.bat
+	11/17/2013  12:40 PM               471 .project
+	11/18/2013  12:39 PM             1,111 set_example_env.bat
+	11/21/2013  08:13 PM               126 start_node.bat
+	11/21/2013  08:16 PM               394 subscribe.bat
+	11/25/2013  10:03 AM    <DIR>          bin
+	11/25/2013  08:29 PM             1,257 log4j.properties
+	11/25/2013  08:30 PM             1,849 ExampleAdapterForRabbitMQ.cnxml
+	11/25/2013  08:35 PM             1,873 adapter_config.xml
+	11/25/2013  08:35 PM             1,089 rabbitmq.ccl
+	11/27/2013  12:23 PM    <DIR>          ..
+	11/27/2013  12:23 PM    <DIR>          .
+	11/27/2013  12:38 PM    <DIR>          logs
+	11/27/2013  12:41 PM            13,655 rabbitmq.ccx
+	              14 File(s)         23,744 bytes
+	               4 Dir(s)  308,768,956,416 bytes free
+	c:\Sybase\ESP-5_1\adapters\framework\examples\rabbitmq>
