@@ -8,31 +8,30 @@ Thank you Author mdai for all the example code.  I used a great deal of your exa
 
 The example external adapter tranporter module (RabbitMQExampleInputTransporter) dequeues data from the RabbitMQ queue and sends data to the formatter module (RabbitMQExampleInputFormatter). The formatter module then parses the data and by way of the espconnector module publishes that data into an ESP input stream in the rabbitmq project.
 
-
 Manifest
-*
-*c:\pub1747\SAP\RabbitMQExampleAdapterESP51>dir /od
-* Volume in drive C has no label.
-* Volume Serial Number is 4A53-A693
-*
-* Directory of c:\pub1747\SAP\RabbitMQExampleAdapterESP51
-*
-*11/15/2013  02:30 PM           786,129 building_custom_adapters.pdf
-*11/16/2013  11:29 AM               580 csi_local.xml
-*11/25/2013  09:21 PM             5,047 modulesdefine.xml
-*11/26/2013  02:50 PM    <DIR>          testJars
-*11/27/2013  12:55 PM             3,198 README.txt
-*11/27/2013  01:10 PM    <DIR>          RabbitMQExampleInputTransporter
-*11/27/2013  01:10 PM    <DIR>          RabbitMQExampleInputFormatter
-*11/27/2013  01:11 PM    <DIR>          rabbitmq
-*11/27/2013  01:12 PM    <DIR>          DfwTrafficSend
-*11/27/2013  01:16 PM           988,560 RabbitMQExampleAdapterESP51.pdf
-*11/27/2013  01:16 PM    <DIR>          .
-*11/27/2013  01:16 PM    <DIR>          ..
-*               5 File(s)      1,783,514 bytes
-*               7 Dir(s)  308,761,505,792 bytes free
-*
-*c:\pub1747\SAP\RabbitMQExampleAdapterESP51>
+
+c:\pub1747\SAP\RabbitMQExampleAdapterESP51>dir /od
+Volume in drive C has no label.
+Volume Serial Number is 4A53-A693
+
+Directory of c:\pub1747\SAP\RabbitMQExampleAdapterESP51
+
+11/15/2013  02:30 PM           786,129 building_custom_adapters.pdf
+11/16/2013  11:29 AM               580 csi_local.xml
+11/25/2013  09:21 PM             5,047 modulesdefine.xml
+11/26/2013  02:50 PM    <DIR>          testJars
+11/27/2013  12:55 PM             3,198 README.txt
+11/27/2013  01:10 PM    <DIR>          RabbitMQExampleInputTransporter
+11/27/2013  01:10 PM    <DIR>          RabbitMQExampleInputFormatter
+11/27/2013  01:11 PM    <DIR>          rabbitmq
+11/27/2013  01:12 PM    <DIR>          DfwTrafficSend
+11/27/2013  01:16 PM           988,560 RabbitMQExampleAdapterESP51.pdf
+11/27/2013  01:16 PM    <DIR>          .
+11/27/2013  01:16 PM    <DIR>          ..
+5 File(s)      1,783,514 bytes
+7 Dir(s)  308,761,505,792 bytes free
+
+c:\pub1747\SAP\RabbitMQExampleAdapterESP51>
 
 
 
